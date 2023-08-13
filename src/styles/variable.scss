@@ -1,0 +1,15 @@
+// 项目提供的scss全局变量 当前文件我们已经在vite.config.ts配置中引入了
+
+// 左侧菜单宽度
+$base-menu-width: 260px;
+// 左侧菜单颜色
+$base-menu-background: #001529;
+// 左侧菜单折叠宽度
+$base-menu-min-width: 65px;
+// 顶部导航高度
+$base-tabbar-height: 50px;
+
+// 左侧菜单logo高度设置
+$base-menu-logo-height: 50px;
+// 左侧菜单logo标题文字大小
+$base-logo-title-fontsize: 20px

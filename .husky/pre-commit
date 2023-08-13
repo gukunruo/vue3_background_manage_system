@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 当前文件是git在客户端保留的一个钩子，下面的指令是执行 git commit之前需要执行的操作，此处是格式化代码
+pnpm run format

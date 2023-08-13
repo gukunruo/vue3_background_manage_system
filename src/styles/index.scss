@@ -1,0 +1,17 @@
+// 引入清除默认样式
+@import './reset.scss';
+// 设置scss全局变量 放入新文件variable.scss中[专门存放全局变量]
+
+// 滚动条样式 -webkit兼容webkit内核的浏览器[谷歌chrome\苹果safari]
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: $base-menu-background;
+}
+// 滚动条中间的小块
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        width: 100vw;
+        height: 100vh;
+        background: orange;
+      }
+      /* 针对1920*1080分辨率的显示器
+            100vh=1920px 1vh=19.2px 100px=100/19.2vh=5.20833...vh
+            100vw=1080px 1vw=10.8px 100px=100/10.8vw=9.259259...vw  */
+      .top {
+        width: 5.2vw;
+        height: 9.26vh;
+        background: red;
+        margin-left: 2.6vw;
+      }
+      .bottom {
+        width: 5.2vw;
+        height: 9.26vh;
+        background: skyblue;
+        margin-left: 2.6vw;
+        margin-top: 9.26vh;
+      }
+    </style>
+  </head>
+  <!-- vw|vh:新增单位 ->IE8 -->
+  <body>
+    <div class="box">
+      <div class="top">数据大屏幕</div>
+      <div class="bottom">ha ha ha</div>
+    </div>
+  </body>
+</html>
