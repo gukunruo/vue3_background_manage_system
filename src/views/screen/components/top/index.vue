@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 // 引入插件moment
-import * as moment from 'moment'
+import moment from 'moment'
 // 引入路由器对象
 import { useRouter } from 'vue-router'
 import { ref, onMounted, onBeforeUnmount } from 'vue'

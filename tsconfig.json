@@ -10,6 +10,7 @@
     /* Bundler mode 指定解析策略 */
     // "moduleResolution": "bundler", // 指定打包协议 bundler会导致ElMessage报错
     "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,

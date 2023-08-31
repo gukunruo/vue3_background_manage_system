@@ -56,7 +56,7 @@
       <!-- 操作 -->
       <el-table-column align="center" label="操作" width="280px">
         <!-- row:已有的职位对象 -->
-        <template #="{ row }">
+        <template v-slot="{ row }">
           <el-button
             type="primary"
             size="small"

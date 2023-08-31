@@ -6,7 +6,7 @@
     <el-table-column label="修改时间" prop="updateTime"></el-table-column>
     <el-table-column label="操作">
       <!-- row：即为已有的菜单对象|按钮的对象的数据 -->
-      <template #="{ row }">
+      <template v-slot="{ row }">
         <!-- 最里面第四层不能进行添加，只能在外三层添加 -->
         <el-button
           type="primary"
